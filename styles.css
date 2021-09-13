@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Nav */
+
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.header-bar h1 {
+  margin-right: 60px;
+}
+
+#header img {
+  height: 20px;
+  margin: 2px;
+  border-radius: 5px;
+}
+
+#nav-bar {
+  background-color: rgb(255, 0, 0);
+}
+
+.Main-Title {
+  border-radius: 8px;
+}
+
+#nav-bar li {
+  display: inline-block;
+  width: auto;
+  font-size: 18px;
+  margin: 0 60px;
+  padding: 8px;
+  font-family: "Bebas Neue", cursive;
+}
+
+#nav-bar ul {
+  display: inline-block;
+  margin-left: 800px;
+}
+
+#nav-bar a {
+  color: black;
+  text-decoration: none;
+}
+
+#nav-bar h1 {
+  font-family: "Kaisei Tokumin", serif;
+  padding: 5px;
+  display: inline-block;
+}
+
+#header li:hover {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+#nav-bar h1:hover {
+  background-color: white;
+  color: white;
+}
+
+/* ---------------- Nav End */
+.pizzahutbackground {
+  width: 100%;
+  position: fixed;
+  z-index: -3;
+  height: 100%;
+}
+
+/* --------------- Map section */
+.ad1 {
+  height: 410px;
+  width: 450px;
+}
+
+.ad2 {
+  display: inline-block;
+  width: 400px;
+  height: 410px;
+  object-fit: fit;
+}
+
+#location-title {
+  color: white;
+  margin: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  border-bottom: solid black 5px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.map-section {
+  text-align: center;
+  padding: 60px;
+}
+
+.pizza-video {
+  width: 30%;
+  height: 300px;
+  display: inline-block;
+}
+
+.map {
+  border: solid black 4px;
+  width: 650px;
+  height: 450px;
+}
+
+.map-text {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 4px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.section-deals h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  border-bottom: solid black 5px;
+  font-size: 35px;
+  margin: 10px;
+  color: white;
+}
+/* --------------- End Map Section */
+
+/* ---------------- Deals */
+.section-deals {
+  text-align: center;
+}
+
+.coupon-email {
+  margin: 10px;
+}
+
+.section-deals h3 {
+  border-bottom: none;
+  font-size: 28px;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+/* ---------------- End Deals */
