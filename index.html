@@ -39,13 +39,22 @@
               <a href="index.html#location-title">Location</a>
             </li>
             <li class="nav-link"><a href="index.html#deals-title">Deals</a></li>
-            <li class="nav-link"><a href="">Pricing</a></li>
+            <li class="nav-link">
+              <a href="index.html#pricing-title">Pricing</a>
+            </li>
           </ul>
         </nav>
       </header>
     </div>
     <section class="map-section">
       <h2 id="location-title">LOCATION</h2>
+      <video
+        id="video"
+        src="../LandingPage/video/kauyyt.mp4"
+        height="240px"
+        width="320px"
+        controls
+      ></video>
       <iframe
         class="map"
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d356738.63461470004!2d-81.54434484837793!3d28.34597652699324!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77f7fc8a7947f%3A0x3dd84f75a78a9d4a!2sPizza%20Hut%20Express!5e0!3m2!1sen!2sus!4v1631557453319!5m2!1sen!2sus"
@@ -64,18 +73,32 @@
       </h3>
       >
     </section>
-    <section class="section-deals">
-      <h2 id="deals-title">DEALS</h2>
+    <section id="deals-title">
+      <h2>DEALS</h2>
       <img class="ad1" src="February_2020_49_Pizzahut_coupon_3724.jpg" alt="" />
       <img class="ad2" src="pizza-hut-ad1.jpg" alt="" />
       <h3>To Recive Exclusive Pizza Hut Coupons</h3>
       <h3>Email:</h3>
-      <form class="coupon-email">
+      <form
+        id="form"
+        action=" https://www.freecodecamp.com/email-submit"
+        method="POST"
+      >
         <label for="email">
-          <input type="email" value="email" />
+          <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            name="email"
+            required
+          />
         </label>
-        <button>Submit</button>
+        <input type="submit" id="submit" value="Submit" />
       </form>
+    </section>
+    <section id="pricing-title">
+      <h2>PRICING</h2>
     </section>
   </body>
 </html>
+
