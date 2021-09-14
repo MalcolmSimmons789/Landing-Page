@@ -22,7 +22,7 @@
 }
 
 #nav-bar {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(197, 0, 0);
 }
 
 .Main-Title {
@@ -96,20 +96,20 @@
   font-size: 35px;
 }
 
+#video {
+  display: inline-block;
+  width: 550px;
+  height: 450px;
+}
+
 .map-section {
   text-align: center;
   padding: 60px;
 }
 
-.pizza-video {
-  width: 30%;
-  height: 300px;
-  display: inline-block;
-}
-
 .map {
   border: solid black 4px;
-  width: 650px;
+  width: 550px;
   height: 450px;
 }
 
@@ -132,18 +132,56 @@
 /* --------------- End Map Section */
 
 /* ---------------- Deals */
-.section-deals {
+#deals-title h2 {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  border-bottom: solid black 5px;
+  font-size: 35px;
+  margin: 10px;
+  color: white;
+}
+#deals-title {
   text-align: center;
 }
 
-.coupon-email {
+#form {
   margin: 10px;
 }
 
-.section-deals h3 {
+#deals-title h3 {
   border-bottom: none;
   font-size: 28px;
   color: white;
   font-family: "Roboto Condensed", sans-serif;
 }
 /* ---------------- End Deals */
+
+/* Pricing */
+#pricing-title h2 {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  border-bottom: solid black 5px;
+  font-size: 35px;
+  margin: 30px;
+  color: white;
+}
+
+/* end Pricing */
+
+@media screen and (max-width: 1250px) {
+  #nav-bar {
+    display: block;
+  }
+
+  #nav-link {
+    display: block;
+    float: right;
+    text-align: left;
+  }
+
+  #nav-bar ul {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+  }
+}
